@@ -1,4 +1,4 @@
-# Deep Learning / Neural Network for making integer value predictions with text
+# Deep Learning / Neural Network for making integer value predictions from unstructured data / text
 
 ### How does it work? 
 
