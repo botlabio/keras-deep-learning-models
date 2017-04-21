@@ -4,6 +4,10 @@
 
 You provide a dataframe with one column text and one column the indepdent variable. Unlike Autonomio, this model yields good results for non categorical predictions as well. 
 
+     from fasttext import FastText
+     
+     FastText(data[['text_col','var_col']],'var_col')
+
 ### Original Source 
 
-[Keras Examples Page](https://github.com/fchollet/keras/blob/master/examples/imdb_fasttext.py)
+Heavily modified from [Keras Examples Page](https://github.com/fchollet/keras/blob/master/examples/imdb_fasttext.py) and then restructured in to a class. 
