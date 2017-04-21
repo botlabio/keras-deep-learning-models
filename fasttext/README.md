@@ -1,5 +1,10 @@
 # Deep Learning / Neural Network for making integer value predictions from unstructured data / text
 
+
+### Depencies 
+
+Once you have Autonomio running, this will run too. Also you need to have the function files in the same directory where autonomio module folder is located. 
+
 ### How does it work? 
 
 You provide a dataframe with one column text and one column the indepdent variable. Unlike Autonomio, this model yields good results for non categorical predictions as well. 
